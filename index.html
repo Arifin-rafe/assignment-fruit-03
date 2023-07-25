@@ -15,17 +15,17 @@
     <!--tailwind custom color-->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
     <style>
-        .font-lato{
+        .font-lato {
             font-family: 'Lato', sans-serif;
         }
     </style>
@@ -33,6 +33,152 @@
 
 <body class="font-lato">
     <header>
+        <!--nav start-->
+
+        <nav class="mx-24 my-10">
+            <div class="navbar bg-orange-100 rounded-3xl">
+                <div class="navbar-start">
+                    <div class="">
+                        <ul class="hidden md:flex gap-2 font-lato">
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Shop</li>
+                            <li>All Fruits</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-center">
+                    <img src="./images/logo.png" alt="">
+                    <h2 class=" normal-case text-2xl font-bold">Fruit Burst</h2>
+                </div>
+                <div class="navbar-end hidden md:block">
+                    <div class="relative">
+                        <input type="text" placeholder="Search..."
+                            class="py-2 pr-10 pl-4 w-full border focus:ring focus:ring-blue-300 focus:outline-none rounded-3xl" />
+                        <button class="absolute inset-y-0 right-0 px-3 py-2 text-black-500 rounded-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </nav>
+        <!--banner exotic test start-->
+        <section class="md:mx-24 relative">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./images/banner1.png" class="w-full" />
+                    <div class="absolute inset-0 flex mt-20 justify-center">
+                        <div class="text-center text-white gap-y-6">
+                            <h1 class="text-4xl font-extrabold">Exotic tastes at your doorstep</h1>
+                            <p class="">We supply highly quality organic products</p>
+                            <button
+                                class="mt-4 px-6 py-3 text-white bg-rose-700 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                Click Me
+                            </button>
+                        </div>
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="./images/banner2.png" class="w-full" />
+                        <div class="absolute inset-0 flex mt-20 justify-center">
+                            <div class="text-center text-white gap-y-6">
+                                <h1 class="text-4xl font-extrabold">Exotic tastes at your doorstep</h1>
+                                <p class="">We supply highly quality organic products</p>
+                                <button
+                                    class="mt-4 px-6 py-3 text-white bg-rose-700 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                    Click Me
+                                </button>
+                            </div>
+
+                            <div
+                                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide1" class="btn btn-circle">❮</a>
+                                <a href="#slide3" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="./images/banner3.png" class="w-full" />
+                        <div class="absolute inset-0 flex mt-20 justify-center">
+                            <div class="text-center text-white gap-y-6">
+                                <h1 class="text-4xl font-extrabold">Exotic tastes at your doorstep</h1>
+                                <p class="">We supply highly quality organic products</p>
+                                <button
+                                    class="mt-4 px-6 py-3 text-white bg-rose-700 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                    Click Me
+                                </button>
+                            </div>
+
+                            <div
+                                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide2" class="btn btn-circle">❮</a>
+                                <a href="#slide4" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="./images/banner4.png" class="w-full" />
+                        <div class="absolute inset-0 flex mt-20 justify-center">
+                            <div class="text-center text-white gap-y-6">
+                                <h1 class="text-4xl font-extrabold">Exotic tastes at your doorstep</h1>
+                                <p class="">We supply highly quality organic products</p>
+                                <button
+                                    class="mt-4 px-6 py-3 text-white bg-rose-700 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                    Click Me
+                                </button>
+                            </div>
+
+                            <div
+                                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide3" class="btn btn-circle">❮</a>
+                                <a href="#slide1" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--exotic test fruits-->
+            <div class="absolute flex text-center justify-center items-center gap-20 -mt-20 bg-white rounded-lg mx-12 px-16 py-20">
+                <div>
+                    <img src="./images/fruit1.png" alt="">
+                    <p>Grapes</p>
+                </div>
+                <div>
+                    <img src="./images/fruit2.png" alt="">
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="./images/fruit3.png" alt="">
+                    <p>Mango</p>
+                </div>
+                <div>
+                    <img src="./images/fruit4.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="./images/fruit5.png" alt="">
+                    <p>Pomegranate</p>
+                </div>
+
+
+            </div>
+        </section>
+
 
     </header>
     <main>
