@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruits</title>
+    <title>Fruits Burst</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
     <!--tailwind and daisy UI-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -34,7 +35,7 @@
 <body class="font-lato">
     <header>
         <!--nav start-->
-
+    
         <nav class="mx-24 my-10">
             <div class="navbar bg-rose-700 rounded-full">
                 <div class="navbar-start">
@@ -68,11 +69,11 @@
             </div>
         </nav>
         <!--banner exotic test start-->
-        <section class="md:mx-24 relative">
+        <section class=" relative md:mx-24 ">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./images/banner1.png" class="w-full" />
-                    <div class="absolute inset-0 flex mt-20 justify-center">
+                    <div class="absolute inset-0 flex justify-center">
                         <div class="text-center text-white gap-y-6">
                             <h1 class="text-4xl font-extrabold">Exotic tastes at your doorstep</h1>
                             <p class="">We supply highly quality organic products</p>
@@ -89,7 +90,7 @@
                     </div>
                     <div id="slide2" class="carousel-item relative w-full">
                         <img src="./images/banner2.png" class="w-full" />
-                        <div class="absolute inset-0 flex mt-20 justify-center">
+                        <div class="absolute inset-0 flex justify-center">
                             <div class="text-center text-white gap-y-6">
                                 <h1 class="text-4xl font-extrabold">Exotic tastes at your doorstep</h1>
                                 <p class="">We supply highly quality organic products</p>
@@ -105,12 +106,10 @@
                                 <a href="#slide3" class="btn btn-circle">❯</a>
                             </div>
                         </div>
-
-
                     </div>
                     <div id="slide3" class="carousel-item relative w-full">
                         <img src="./images/banner3.png" class="w-full" />
-                        <div class="absolute inset-0 flex mt-20 justify-center">
+                        <div class="absolute inset-0 flex justify-center">
                             <div class="text-center text-white gap-y-6">
                                 <h1 class="text-4xl font-extrabold">Exotic tastes at your doorstep</h1>
                                 <p class="">We supply highly quality organic products</p>
@@ -130,8 +129,8 @@
                     </div>
                     <div id="slide4" class="carousel-item relative w-full">
                         <img src="./images/banner4.png" class="w-full" />
-                        <div class="absolute inset-0 flex mt-20 justify-center">
-                            <div class="text-center text-white gap-y-6">
+                        <div class="absolute inset-0 flex justify-center">
+                            <div class="text-center text-white">
                                 <h1 class="text-4xl font-extrabold">Exotic tastes at your doorstep</h1>
                                 <p class="">We supply highly quality organic products</p>
                                 <button
@@ -152,36 +151,37 @@
 
             </div>
             <!--exotic test fruits-->
-            <div
-                class=" md:relative flex text-center justify-center items-center gap-20 -mt-28 bg-white rounded-lg mx-12 px-16 py-16">
-                <div>
-                    <img src="./images/fruit1.png" alt="">
-                    <p>Grapes</p>
-                </div>
-                <div>
-                    <img src="./images/fruit2.png" alt="">
-                    <p>Orange</p>
-                </div>
-                <div>
-                    <img src="./images/fruit3.png" alt="">
-                    <p>Mango</p>
-                </div>
-                <div>
-                    <img src="./images/fruit4.png" alt="">
-                    <p>Strawberry</p>
-                </div>
-                <div>
-                    <img src="./images/fruit5.png" alt="">
-                    <p>Pomegranate</p>
-                </div>
+            <div class="md:relative flex text-center justify-center items-center gap-20 -mt-28 bg-white rounded-lg mx-12 px-16 py-16">
+                
+                    <div>
+                        <img src="./images/fruit1.png" alt="">
+                        <p>Grapes</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit2.png" alt="">
+                        <p>Orange</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit3.png" alt="">
+                        <p>Mango</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit4.png" alt="">
+                        <p>Strawberry</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit5.png" alt="">
+                        <p>Pomegranate</p>
+                    </div>
+                
             </div>
         </section>
     </header>
 
     <main>
         <!--Deal of the day start-->
-        <section class="mt-24 md:mx-24">
-            <div class="flex-col-1 text-center md:flex justify-between mb-4">
+        <section class=" md:mx-24 mt-24">
+            <div class="flex-col-1 align-middle md:flex justify-between mb-4">
                 <div>
                     <h2 class="text-3xl font-extrabold">Deal of the day</h2>
                     <p class="font-normal text-gray-500 text-sm my-5">Contrary to popular belief, is not simply random text. It has
@@ -973,13 +973,13 @@
         </section>
     </main>
     <!--Footer here-->
-    <footer class="bg-black h-96 mt-28">
+    <footer class="bg-black  mt-28 pb-24 ">
         <div class="flex justify-center items-center pt-28 gap-4">
             <img src="./images/logo.png" alt="">
             <h2 class="text-3xl font-bold text-white">Fruit Burst</h2>
         </div>
         
-            <ul class="flex justify-center gap-6 text-blue-50 py-10">
+            <ul class="flex flex-wrap mx-32 md:flex justify-center gap-6 text-blue-50 py-10">
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Shop</li>
@@ -988,7 +988,7 @@
                 <li>My Account</li>
             </ul>
             <!--footer SVG logo-->
-        <div class="flex justify-center gap-5">
+        <div class="flex flex-wrap mx-24 md:flex justify-center gap-5">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                 <g clip-path="url(#clip0_13_2375)">
                   <path d="M40 7.5975C38.5125 8.25 36.9275 8.6825 35.275 8.8925C36.975 7.8775 38.2725 6.2825 38.8825 4.36C37.2975 5.305 35.5475 5.9725 33.6825 6.345C32.1775 4.7425 30.0325 3.75 27.6925 3.75C23.1525 3.75 19.4975 7.435 19.4975 11.9525C19.4975 12.6025 19.5525 13.2275 19.6875 13.8225C12.87 13.49 6.8375 10.2225 2.785 5.245C2.0775 6.4725 1.6625 7.8775 1.6625 9.39C1.6625 12.23 3.125 14.7475 5.305 16.205C3.9875 16.18 2.695 15.7975 1.6 15.195C1.6 15.22 1.6 15.2525 1.6 15.285C1.6 19.27 4.4425 22.58 8.17 23.3425C7.5025 23.525 6.775 23.6125 6.02 23.6125C5.495 23.6125 4.965 23.5825 4.4675 23.4725C5.53 26.72 8.545 29.1075 12.13 29.185C9.34 31.3675 5.7975 32.6825 1.9625 32.6825C1.29 32.6825 0.645 32.6525 0 32.57C3.6325 34.9125 7.9375 36.25 12.58 36.25C27.67 36.25 35.92 23.75 35.92 12.915C35.92 12.5525 35.9075 12.2025 35.89 11.855C37.5175 10.7 38.885 9.2575 40 7.5975Z" fill="white"/>
